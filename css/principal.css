@@ -1,3 +1,35 @@
+body{
+    display: flex;
+}
 li{
     list-style-type: none;
 }
+.agregar-lista{
+    border: 1px solid #000;
+}
+.lista-agregada{
+    border: 1px solid #000;
+}
+i.bi-plus{
+    margin-right: 5px;
+}
+i.bi-search{
+    margin-right: 5px;
+}
+i.bi-journal-text{
+    margin-right: 5px;
+}
+aside{
+    position: static;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+main{
+    position: static;
+    border: 1px solid #000;
+    left: 180px;
+    flex: 1;
+    padding: 20px;
+}
+
