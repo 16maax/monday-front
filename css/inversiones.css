@@ -4,3 +4,13 @@ main{
     flex: 1;
     padding: 20px;
 }
+.titulo-principal{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}

@@ -56,7 +56,7 @@ function estado(selectElement) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  const tituloPrincipalElement = document.querySelector('.titulo-principal');
+  const tituloPrincipalElement = document.getElementById('titulo-principal');
 
   // Obtener el nombre de usuario del localStorage
   const nombreUsuario = localStorage.getItem('nombreUsuario');
@@ -70,3 +70,4 @@ document.addEventListener('DOMContentLoaded', function() {
     tituloPrincipalElement.textContent = 'Actividades';
   }
 });
+

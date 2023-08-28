@@ -1,28 +1,12 @@
-body{
-    display:flex;
-}
-li{
-    list-style-type: none;
-}
-i.bi-plus{
-    margin-right: 5px;
-}
-i.bi-search{
-    margin-right: 5px;
-}
-i.bi-journal-text{
-    margin-right: 5px;
-}
-aside{
-    position: static;
-    justify-content: space-between;
-    flex-direction: column;
-    flex: 0 0 auto;
-    width: 200px;
-}
 main{
     position: static;
     left: 180px;
     flex: 1;
     padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
 }
